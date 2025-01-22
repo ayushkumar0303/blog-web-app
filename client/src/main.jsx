@@ -12,7 +12,7 @@ import { store, persistor } from "./store/store.js";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import ThemePage from "./components/ThemePage.jsx";
-import PrivateDash from "./components/privateDash.jsx";
+import PrivateDash from "./components/PrivateDash.jsx";
 import Error404 from "./components/Error404.jsx";
 import PrivateCreatePost from "./components/PrivateCreatePost.jsx";
 import CreatePost from "./pages/CreatePost.jsx";

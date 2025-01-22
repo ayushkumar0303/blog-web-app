@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 function PostCard({ post }) {
   return (
-    <div className="group relative border p-2 rounded-lg flex flex-col w-[300px] h-[340px] gap-1 group-hover:border-9 overflow-hidden shadow-md">
+    <div className="group relative border p-2 rounded-lg flex flex-col w-[300px] h-[340px] gap-1 group-hover:border-9 overflow-hidden shadow-md ">
       <Link to={`/posts/${post.slug}`}>
         <img
           src={post.postImage}
           alt=""
-          className="rounded-lg w-full h-[260px] object-cover group-hover:h-[200px] transition-all duration-300"
+          className="rounded-lg w-full h-[260px] object-cover group-hover:h-[200px] transition-all duration-300 group-hover:opacity-55"
         />
       </Link>
       <div className="flex flex-col items-start gap-1">
