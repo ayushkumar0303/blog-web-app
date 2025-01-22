@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+
+.ql-editor {
+  font-size: 1.05rem;
+}
+
+.content_class p {
+  margin-bottom: 0.5rem;
+}
+
+.content_class h1 {
+  margin: 1.5rem 0;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+}
+
+.content_class h2 {
+  margin: 1.5rem 0;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+}
+
+.content_class h3 {
+  margin: 1.5rem 0;
+  /* font-weight: 400; */
+  font-family: sans-serif;
+  font-size: 1.4rem;
+}
+
+.content_class h4 {
+  margin: 1.5rem 0;
+  /* font-weight: 400; */
+  font-family: sans-serif;
+  font-size: 1.3rem;
+}
+
+.content_class a {
+  color: rgb(16, 16, 228)
+}
+
+.content_class a:hover {
+  color: rgb(16, 16, 228);
+  text-decoration: underline;
+}
+
+.content_class ol {
+  padding-left: 30px;
+  list-style: decimal;
+}
+
+.content_class ul {
+  padding-left: 30px;
+  list-style: disc;
+}
+
+
+.content_class ul li strong {
+  font-size: 1.1rem;
+  list-style: disc;
+}
+
+.content_class ol li strong {
+  font-size: 1.1rem;
+}
